@@ -9,6 +9,9 @@ html(lang="en")
         form#mainForm
             input(type = "text",placeholder = "Name",name = "Name")
             button(type = "submit") Submit
-        p#results
+        ol  
+            each complaint in complaints
+                li complaint 
 
-        //- script. 
+
+        script. 
